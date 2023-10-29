@@ -14,11 +14,11 @@ Simply because the priority chosen for a data in the treap in randomly chosen
 |Operations| Specifications|
 |----------|---------------|
 |insert(key)|adds an element of key as its value with a random priority|
-|delete(key)| Removes a node with the given key from the Treap return error if key not in treap|
-|search(key)| Searches for a node with the specified key and returns the node if found or null if not found|
+|delete(key)| Removes a node with the given key from the Treap return None if key not in treap|
+|search(key)| Searches for a node with the specified key and returns the true if found or false if not found|
 |is_empty()| Checks if the Treap is empty, return true if so, else return false |
 |size()|  Returns the number of nodes in the Treap |
-|merge(treap1, treap2)| requires two treaps and returns a treap which is a combination of both treaps|
+|merge(treap2)| requires two treaps and returns a treap which is a combination of treap2 and treap calling the object|
 |split(nleftsize)| splits the treap into two with left subtreap having nleftsize while the right having the remaining|
 
 ## Balancing Property
